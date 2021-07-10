@@ -1,5 +1,7 @@
-def Reverse(List):
-    actualList=List[1:]
-    for i in reversed(actualList):
-        print(i)
-Reverse([9,45,64,34,567,456,897,23,5,2])
+len=int(input())
+list=[int(input()) for i in range(len)]
+reverse=list[::-1]
+for x in reverse:
+        print(x)
+
+# https://www.hackerearth.com/practice/data-structures/arrays/1-d/practice-problems/algorithm/print-array-in-reverse/
